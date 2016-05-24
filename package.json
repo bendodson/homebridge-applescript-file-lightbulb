@@ -1,6 +1,6 @@
 {
 	"name": "homebridge-applescript-file-lightbulb",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Applescript plugin for homebridge: https://github.com/nfarina/homebridge",
 	"license": "ISC",
 	"keywords": [

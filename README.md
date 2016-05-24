@@ -6,7 +6,7 @@ A homebridge lightbulb accessory that can trigger specific AppleScript files
 ## Installation
 
 1. Install homebridge using: `npm install -g homebridge`
-2. Install this plugin using: `npm install -g homebridge-applescript-file`
+2. Install this plugin using: `npm install -g homebridge-applescript-file-lightbulb`
 3. Update your configuration file. See `sample-config.json` in this repository for a sample.
 
 ## Configuration
