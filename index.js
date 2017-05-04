@@ -25,6 +25,7 @@ ApplescriptAccessory.prototype.setState = function(powerOn, callback) {
 	var command = accessory[prop];
 
 	if (command.length == 0) {
+		callback(null);
 		return;
 	}
 
@@ -45,6 +46,7 @@ ApplescriptAccessory.prototype.setBrightness = function(level, callback) {
 	var accessory = this;
 	var command = accessory['brightnessCommand'];
 	if (command.length == 0) {
+		callback(null);
 		return;
 	}
 
